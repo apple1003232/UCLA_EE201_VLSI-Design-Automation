@@ -1,0 +1,12 @@
+#use token "grid" to define the scale of the graph.
+grid (10,10)
+
+#use token "term" to define teminals
+term (1,4)
+term (6,2)
+term (9,9)
+term (9,2)
+
+#use token "obs" to define obstacles by the lower left corner, and the upper right corner
+obs (2,2) (3,4)
+obs (4,3) (5,4)
